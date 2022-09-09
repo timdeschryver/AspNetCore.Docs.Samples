@@ -41,7 +41,6 @@ app.UseHttpsRedirection();
 // Middleware to handle writing problem details to the response
 app.Use(async (context, next) =>
 {
-    var mathErrorFeature = new MathErrorFeature();
     context.Features.Set(new MathErrorFeature());
     await next(context);
 });
