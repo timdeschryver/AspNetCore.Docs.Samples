@@ -251,7 +251,7 @@ app.MapControllers();
 app.Run();
 // </snippet_disable>
 #elif TEST_EX
-// <snippet_ex>
+// <snippet_lambda>
 using Microsoft.AspNetCore.Diagnostics;
 using static System.Net.Mime.MediaTypeNames;
 
